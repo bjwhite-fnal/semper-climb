@@ -3,7 +3,7 @@ module.exports = {
     title: `semper-climb`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-transformer-remark", {
+  plugins: ["gatsby-plugin-sharp", "gatsby-plugin-image", "gatsby-transformer-remark", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
