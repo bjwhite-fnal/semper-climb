@@ -1,0 +1,21 @@
+.post {
+  margin: auto;
+  max-width: 500px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 3px solid black;
+}
+
+.flexparent {
+  display: flex;
+  width: 50%;
+}
+
+.flexchild {
+  flex: 1;
+  border: 2px solid blueviolet;
+  margin: 10px;
+}
+
+.flexchild:first-child {
+  margin-right: 20px;
+}

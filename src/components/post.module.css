@@ -1,0 +1,6 @@
+.post {
+  margin: auto;
+  max-width: 500px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 3px solid black;
+}
