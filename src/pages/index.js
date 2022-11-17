@@ -1,17 +1,22 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import Post from '../components/post'
 import { StaticImage } from 'gatsby-plugin-image'
+import {
+  flexparent,
+  flexchild
+} from '../componenets/util.module.css'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="Semper CLImb">
-      <p>A mountaineer's tale, by Bilbo Baggins!</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="A picture of the Flatirons facing south taken from the top of the Red Devil"
         src="../images/flatirons_1.jpg"
       />
+      <Post></Post>
     </Layout>
   )
 }
